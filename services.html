@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>الخدمات التعليمية | تحسين</title>
+
+<meta name="description" content="جميع الخدمات التعليمية للمعلمين تشمل ملفات، خطط، سجلات، تحليل نتائج، عروض بوربوينت.">
+
+<link rel="stylesheet" href="assets/css/variables.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+<div class="container nav-wrapper">
+<h1 class="logo">تحسين</h1>
+<nav>
+<ul>
+<li><a href="index.html">الرئيسية</a></li>
+<li><a href="services.html">الخدمات</a></li>
+<li><a href="portfolio.html">نماذج</a></li>
+<li><a href="about.html">من نحن</a></li>
+<li><a href="contact.html">تواصل</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="services-page">
+<div class="container">
+
+<h2 class="section-title">خدماتنا التعليمية</h2>
+
+<div class="filter-buttons">
+<button class="filter-btn active" data-filter="all">الكل</button>
+<button class="filter-btn" data-filter="files">الملفات</button>
+<button class="filter-btn" data-filter="plans">الخطط</button>
+<button class="filter-btn" data-filter="design">التصاميم</button>
+</div>
+
+<div class="search-box">
+<input type="text" id="serviceSearch" placeholder="ابحث عن خدمة...">
+</div>
+
+<div class="services-grid">
+
+<div class="service-card reveal" data-category="files">
+<img src="assets/images/services/performance.jpg" loading="lazy" alt="ملف الأداء الوظيفي">
+<h4>ملف الأداء الوظيفي</h4>
+<button onclick="sendToWhatsApp('ملف الأداء الوظيفي')" class="btn-primary">اطلب الآن</button>
+</div>
+
+<div class="service-card reveal" data-category="plans">
+<img src="assets/images/services/plans.jpg" loading="lazy" alt="خطط علاجية وإثرائية">
+<h4>خطط علاجية وإثرائية</h4>
+<button onclick="sendToWhatsApp('خطط علاجية وإثرائية')" class="btn-primary">اطلب الآن</button>
+</div>
+
+<div class="service-card reveal" data-category="design">
+<img src="assets/images/services/powerpoint.jpg" loading="lazy" alt="عروض بوربوينت تعليمية">
+<h4>عروض بوربوينت</h4>
+<button onclick="sendToWhatsApp('عروض بوربوينت')" class="btn-primary">اطلب الآن</button>
+</div>
+
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>© 2026 جميع الحقوق محفوظة</p>
+</div>
+</footer>
+
+<button class="floating-whatsapp"
+onclick="sendToWhatsApp('أرغب في الاستفسار عن الخدمات')">
+واتساب
+</button>
+
+<script src="assets/js/whatsapp.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
