@@ -1,0 +1,37 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Cairo',sans-serif}
+body{background:var(--bg);color:var(--text)}
+.container{width:90%;max-width:1200px;margin:auto}
+
+.navbar{background:#fff;padding:20px 0;box-shadow:var(--shadow)}
+.nav-wrapper{display:flex;justify-content:space-between;align-items:center}
+.navbar ul{list-style:none;display:flex;gap:20px}
+.navbar a{text-decoration:none;color:var(--text);font-weight:600}
+
+.hero{padding:100px 0;text-align:center;background:linear-gradient(135deg,#e0ecff,#ffffff)}
+.hero h2{font-size:32px;margin-bottom:15px}
+.hero p{color:var(--muted);margin-bottom:30px}
+
+.btn-primary{background:var(--primary);color:white;border:none;padding:12px 28px;border-radius:var(--radius);cursor:pointer;transition:.3s}
+.btn-primary:hover{background:var(--primary-dark)}
+
+.btn-secondary{margin-right:10px;text-decoration:none;padding:12px 28px;border-radius:var(--radius);border:1px solid var(--primary);color:var(--primary)}
+
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.service-card{background:var(--card);padding:25px;border-radius:var(--radius);box-shadow:var(--shadow);transition:.3s}
+.service-card:hover{transform:translateY(-8px)}
+.service-card img{width:100%;height:180px;object-fit:cover;border-radius:14px;margin-bottom:15px}
+
+.filter-buttons{text-align:center;margin:40px 0}
+.filter-btn{background:white;border:1px solid var(--primary);color:var(--primary);padding:8px 18px;margin:5px;border-radius:50px;cursor:pointer;transition:.3s}
+.filter-btn:hover,.filter-btn.active{background:var(--primary);color:white}
+
+.search-box{text-align:center;margin-bottom:40px}
+.search-box input{width:100%;max-width:500px;padding:12px 20px;border-radius:50px;border:1px solid #ddd}
+
+.reveal{opacity:0;transform:translateY(40px);transition:.6s}
+.reveal.active{opacity:1;transform:translateY(0)}
+
+.cta{background:var(--primary);color:white;padding:60px 0;text-align:center}
+footer{padding:30px 0;text-align:center;background:#fff;margin-top:60px}
+
+.floating-whatsapp{position:fixed;bottom:20px;left:20px;background:var(--accent);color:white;border:none;padding:14px 20px;border-radius:50px;cursor:pointer;box-shadow:var(--shadow)}

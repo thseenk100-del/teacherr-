@@ -1,0 +1,11 @@
+:root {
+--primary:#2563eb;
+--primary-dark:#1e40af;
+--accent:#22c55e;
+--bg:#f8fafc;
+--card:#ffffff;
+--text:#0f172a;
+--muted:#64748b;
+--radius:18px;
+--shadow:0 8px 24px rgba(0,0,0,0.06);
+}
